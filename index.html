@@ -1254,7 +1254,7 @@
             const now = new Date();
             
             // Digitale Uhr
-            const timeString = now.toLocaleTimeString('de-DE', {
+            const timeString = now.toLocaleTimeString('en-GB', {
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit'
@@ -1262,7 +1262,7 @@
             elements.digitalClock.textContent = timeString;
             
             // Datum
-            const dateString = now.toLocaleDateString('de-DE', {
+            const dateString = now.toLocaleDateString('en-GB', {
                 weekday: 'long',
                 year: 'numeric',
                 month: 'long',
